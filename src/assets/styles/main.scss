@@ -1,0 +1,25 @@
+// main.scss
+
+@import "./variables.scss";
+@import './home.scss';
+@import "./components/sidebar.scss";
+@import './components/headerbar.scss';
+
+body {
+  margin: 0px;
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+}
+
+.page {
+  flex-grow: 1;
+  position: relative;
+}

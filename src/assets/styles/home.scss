@@ -1,0 +1,8 @@
+// home.scss
+
+@import './variables.scss';
+
+.home {
+  width: calc(100vw - $sidebar-width);
+  height: 100vh;
+}

@@ -1,0 +1,17 @@
+// headerbar.scss
+
+@import '../variables.scss';
+
+.headerbar {
+  height: $header-height;
+  width: 100%;
+
+  background-color: $accent;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
