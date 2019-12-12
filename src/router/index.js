@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Products from '../views/Products.vue'
 import Vendors from '../views/Vendors.vue'
+import Chatter from '../views/Chatter.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/vendors',
     name: 'vendors',
     component: Vendors
+  },
+  {
+    path: '/chatter',
+    name: 'chatter',
+    component: Chatter
   },
 ]
 
