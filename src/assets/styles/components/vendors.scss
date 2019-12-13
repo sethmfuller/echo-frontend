@@ -1,0 +1,20 @@
+// vendors.scss
+
+@import '../variables.scss';
+
+.vendors {
+  .card-section {
+    // display: flex;
+    padding-left: 20px;
+    margin-top: 20px;
+
+    select {
+      margin-left: 10px;
+    }
+  }
+
+  .other-section {
+    padding-left: 20px;
+    margin-top:50px;
+  }
+}

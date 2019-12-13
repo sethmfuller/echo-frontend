@@ -9,7 +9,7 @@
           <td>{{selectedCategoryName}}</td>
           <td>{{selectedCOOName}}</td>
         </tr>
-        <tr v-if="queriedData.length == 0">No Entries</tr>
+        <tr v-if="queriedData.length == 0"></tr>
       </table>
 </template>
 

@@ -12,20 +12,20 @@
       <span>Search for the products that you are interested in</span>
       <div class="search-criteria-container">
         <div class="dropdown-container">
-          <span class="dropdown-label">COO</span>
-          <div class="dropdown">
-            <select v-model="selectedCOO" name="coo" class="dropdown-select">
-              <option v-for="coo in coos" :key="coo.cooId" :value="coo.cooId">{{coo.name}}</option>
-            </select>
-          </div> 
-        </div>
-        <div class="dropdown-container">
           <span class="dropdown-label">Category</span>
           <div class="dropdown">
             <select v-model="selectedCategory" name="category" class="dropdown-select">
               <option v-for="category in categories" :key="category.cid" :value="category.cid">{{category.name}}</option>
             </select>
           </div>
+        </div>
+        <div class="dropdown-container">
+          <span class="dropdown-label">COO</span>
+          <div class="dropdown">
+            <select v-model="selectedCOO" name="coo" class="dropdown-select">
+              <option v-for="coo in coos" :key="coo.cooId" :value="coo.cooId">{{coo.name}}</option>
+            </select>
+          </div> 
         </div>
         <div class="search-button" @click="search">
           SEARCH
