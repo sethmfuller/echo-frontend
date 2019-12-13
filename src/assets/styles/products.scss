@@ -4,5 +4,34 @@
   .card-section {
     display: flex;
     padding-left: 20px;
+    margin-top: 20px;
+  }
+
+  .other-section {
+    padding-left: 40px;
+    padding-top: 40px;
+
+    .search-criteria-container {
+      display: flex;
+      margin-top: 20px;
+      align-items: flex-end;
+
+      .dropdown-container {
+        margin-right: 20px;
+
+        .dropdown {
+          select {
+            display: block;
+            width: 200px;
+            height: 40px;
+            background-color: white;
+            border-radius: 3px;
+            outline: none;
+            border: 1px solid lightgrey;
+            padding-left: 20px;
+          }
+        }
+      }
+    }
   }
 }

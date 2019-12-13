@@ -6,6 +6,7 @@
 @import "./components/sidebar.scss";
 @import './components/headerbar.scss';
 @import './components/card.scss';
+@import './components/customTable.scss';
 
 body {
   margin: 0px;
@@ -24,4 +25,17 @@ body {
 .page {
   flex-grow: 1;
   position: relative;
+  margin-left: $sidebar-width;
+}
+
+.search-button {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primary;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
 }

@@ -11,6 +11,9 @@
   box-shadow: 3px 0px 10px 0px grey;
   z-index: 100;
   padding-top: 5px;
+  position: fixed;
+  top:0px;
+  left: 0px;
 
   img {
     width: 80%;
@@ -26,7 +29,7 @@
       height: 50px;
       cursor: pointer;
       transition: ease-in-out 100ms;
-      color: lightgrey;
+      color: $primary;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -34,6 +37,7 @@
   
     .tab:hover {
       background-color: $primary;
+      color: white;
     }
   }
 }
